@@ -1,0 +1,47 @@
+board-container {
+  background-color: red;
+  height: 370px;
+  width: 370px;
+}
+.board-container.row {
+  background-color: blue;
+  height: 100%;
+}
+.board-card {
+  border: 2px solidred;
+  height: 25%;
+
+  padding: 0;
+}
+.face-container {
+  background-color: blue;
+  height: 200%;
+  width: 100%;
+}
+faceup,
+.facedown {
+  height: 50%;
+}
+.facedown {
+  background-color: lightGray;
+}
+.faceup {
+  background-color: coral;
+}
+board-card {
+  border: 2pxsolidred;
+  height: 25%;
+  padding: 0;
+  overflow: hidden;
+}
+face-container {
+  background-color: blue;
+  height: 200%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+flipped.face-container {
+  top: -100%;
+}
+
